@@ -1,6 +1,6 @@
 TRABALHO DE PI: STUNIZADO
 
-1. COMPONENTES <br>
+<b>1. COMPONENTES <br></b>
 Integrantes do grupo <br>
 Miguel Abreu de Matos: miguelabreumatos@gmail.com<br>
 Lavínia Mariano: lavinianina@outlook.com<br>

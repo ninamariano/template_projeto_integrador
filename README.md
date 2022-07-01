@@ -1,23 +1,23 @@
 TRABALHO DE PI: STUNIZADO
 
-1. COMPONENTES 
-Integrantes do grupo 
-Miguel Abreu de Matos: miguelabreumatos@gmail.com
-Lavínia Mariano: lavinianina@outlook.com
-Gianluca Scalzin: gianlucascalzisampogna@gmail.com
+1. COMPONENTES <br>
+Integrantes do grupo <br>
+Miguel Abreu de Matos: miguelabreumatos@gmail.com<br>
+Lavínia Mariano: lavinianina@outlook.com<br>
+Gianluca Scalzin: gianlucascalzisampogna@gmail.com<br>
 
 
-2.MINIMUNDO
+2.MINIMUNDO<br>
    O sistema a ser desenvolvido para o site "Stunizado" conterá as seguintes informações: dos usuários serão armazenados matrícula, nome, sexo e data de nascimento. Além disso, a respeito do curso de interesse do usuário será armazenado nome e código e a respeito da faculdade será nome, código e processo seletivo. Um usuário pode desejar mais de um curso e faculdade e faculdade e curso podem possuir mais de  um usuário. Com relação às disciplinas, armazenaremos nome e código, e com relação aos conteúdos será nome, importância, código e código da disciplina a qual pertence, sendo assim, uma disciplina pode conter mais de um conteúdo, mas um conteúdo só pode pertencer a uma disciplina. Outras importantes informações são as da disponibilidade, sendo elas id, início, fim e dia da semana, e também as da atividade agendada, sendo id, inicio, fim, dia da semana, pessoa e descrição. Um usuário pode ter diversos horários de disponibilidade e atividades agendadas e essas podem ser de vários usuários.
 
 
-3.PMC
+3.PMC<br>
 https://drive.google.com/file/d/1JB77qcl5fPhs_R1OZTYgF7XAodsZBXsY/view?usp=sharing
 
 
 
 
-4. PERSONAS E HISTÓRIAS DE USUÁRIO
+4. PERSONAS E HISTÓRIAS DE USUÁRIO<br>
 
 a) inclusão dos Persons desenvolvidos pelo grupo
 https://drive.google.com/file/d/1R655DPkJy1uYbpS-EaEIskA1dPwTYgQw/view?usp=sharing

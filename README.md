@@ -7,17 +7,17 @@ Lavínia Mariano: lavinianina@outlook.com<br>
 Gianluca Scalzin: gianlucascalzisampogna@gmail.com<br>
 
 
-2.MINIMUNDO<br>
+<b>2.MINIMUNDO<br></b>
    O sistema a ser desenvolvido para o site "Stunizado" conterá as seguintes informações: dos usuários serão armazenados matrícula, nome, sexo e data de nascimento. Além disso, a respeito do curso de interesse do usuário será armazenado nome e código e a respeito da faculdade será nome, código e processo seletivo. Um usuário pode desejar mais de um curso e faculdade e faculdade e curso podem possuir mais de  um usuário. Com relação às disciplinas, armazenaremos nome e código, e com relação aos conteúdos será nome, importância, código e código da disciplina a qual pertence, sendo assim, uma disciplina pode conter mais de um conteúdo, mas um conteúdo só pode pertencer a uma disciplina. Outras importantes informações são as da disponibilidade, sendo elas id, início, fim e dia da semana, e também as da atividade agendada, sendo id, inicio, fim, dia da semana, pessoa e descrição. Um usuário pode ter diversos horários de disponibilidade e atividades agendadas e essas podem ser de vários usuários.
 
 
-3.PMC<br>
+<b>3.PMC<br></b>
 https://drive.google.com/file/d/1JB77qcl5fPhs_R1OZTYgF7XAodsZBXsY/view?usp=sharing
 
 
 
 
-4. PERSONAS E HISTÓRIAS DE USUÁRIO<br>
+<b>4. PERSONAS E HISTÓRIAS DE USUÁRIO<br></b>
 
 a) inclusão dos Persons desenvolvidos pelo grupo
 https://drive.google.com/file/d/1R655DPkJy1uYbpS-EaEIskA1dPwTYgQw/view?usp=sharing
@@ -27,11 +27,11 @@ b) inclusão das Histórias de usuário desenvolvidas pelo grupo
 https://drive.google.com/file/d/1fHd5QBwyl_h0W58VLSPoNU6zlC0MMFw0/view?usp=sharing
 
 
-5. RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)
+<b>5. RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)</b>
 https://www.figma.com/file/LpGQFtAgEowuKSbgE1vVDz/Prot%C3%B3tipos?node-id=0%3A1
 
 
-5.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
+<b>5.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?</b>
 
 Relatórios de objetivos e interesses dos usuários, contendo todas as suas informações com relação ao vestibular.
 
@@ -50,14 +50,14 @@ O sistema Stunizado precisa inicialmente dos seguintes relatórios:
 
 
 
-6. TABELA DE DADOS DO SISTEMA:
+<b>6. TABELA DE DADOS DO SISTEMA:</b>
 
 https://docs.google.com/spreadsheets/d/12X_oOsdZy9QY46T7XTzUFpD0mLCGBbvlRioiAtC2MVo/edit?usp=sharing
 
 
 
 
-7. MODELO CONCEITUAL
+<b>7. MODELO CONCEITUAL</b>
 https://drive.google.com/file/d/1-HWbOHQTqD-K5Zepyn64uZKl_kgGFs-u/view?usp=sharing
 	
 
@@ -67,7 +67,7 @@ https://drive.google.com/file/d/1-HWbOHQTqD-K5Zepyn64uZKl_kgGFs-u/view?usp=shari
 B - Usuário, atividade agendada e faculdade.
 
 	 
-7.1 Descrição dos dados
+<b>7.1 Descrição dos dados</b>
 
 	Usuário: tabela que armazena as informações relativas ao usuário.
            Nome: campo que armazena o nome do usuário.

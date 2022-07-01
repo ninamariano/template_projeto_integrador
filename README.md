@@ -12,7 +12,7 @@ Gianluca Scalzin: gianlucascalzisampogna@gmail.com<br>
 
 
 <b>3.PMC<br></b>
-https://drive.google.com/file/d/1JB77qcl5fPhs_R1OZTYgF7XAodsZBXsY/view?usp=sharing
+https://drive.google.com/file/d/1JB77qcl5fPhs_R1OZTYgF7XAodsZBXsY/view?usp=sharing<br>
 
 
 
@@ -24,7 +24,7 @@ https://drive.google.com/file/d/1R655DPkJy1uYbpS-EaEIskA1dPwTYgQw/view?usp=shari
 
 
 b) inclusão das Histórias de usuário desenvolvidas pelo grupo
-https://drive.google.com/file/d/1fHd5QBwyl_h0W58VLSPoNU6zlC0MMFw0/view?usp=sharing
+https://drive.google.com/file/d/1fHd5QBwyl_h0W58VLSPoNU6zlC0MMFw0/view?usp=sharing<br>
 
 
 <b>5. RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)</b>

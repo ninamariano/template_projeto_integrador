@@ -107,4 +107,25 @@ Código: campo que identifica cada disciplina.
           Código: campo que identifica cada conteúdo.
           Nome: campo que armazena o nome dos conteúdos.
           Cod_disciplina: campo que identifica de qual disciplina o conteúdo faz parte.
+	  
+	 
+	 
+<b> 8.RASTREABILIDADE DOS ARTEFATOS</b><br>
+<b>a) Historia de usuários vs protótipo (mockup)</b><br>
+
+https://drive.google.com/file/d/1JU2m_B8m2XXgTpften-UfvOqamXWbh_t/view?usp=sharing
+
+
+
+<b>b) Protótipo vs Modelo conceitual</b><br>
+    (não serão aceitos modelos que não estejam em conformidade)<br>
+    
+<b>c) Backlog (caso solicitado)</b><br>
+https://drive.google.com/file/d/1GlNPKPO5-wap5zhTqbMhcIqTLa7cF34Q/view?usp=sharing<br>
+
+
+
+
+
+
 

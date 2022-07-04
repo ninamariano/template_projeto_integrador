@@ -19,19 +19,19 @@ https://drive.google.com/file/d/1JB77qcl5fPhs_R1OZTYgF7XAodsZBXsY/view?usp=shari
 
 <b>4. PERSONAS E HISTÓRIAS DE USUÁRIO<br></b>
 
-a) inclusão dos Persons desenvolvidos pelo grupo
+a) inclusão dos Persons desenvolvidos pelo grupo<br>
 https://drive.google.com/file/d/1R655DPkJy1uYbpS-EaEIskA1dPwTYgQw/view?usp=sharing
 
 
-b) inclusão das Histórias de usuário desenvolvidas pelo grupo
+b) inclusão das Histórias de usuário desenvolvidas pelo grupo<br>
 https://drive.google.com/file/d/1fHd5QBwyl_h0W58VLSPoNU6zlC0MMFw0/view?usp=sharing<br>
 
 
-<b>5. RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)</b>
+<b>5. RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)</b><br>
 https://www.figma.com/file/LpGQFtAgEowuKSbgE1vVDz/Prot%C3%B3tipos?node-id=0%3A1
 
 
-<b>5.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?</b>
+<b>5.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?</b><br>
 
 Relatórios de objetivos e interesses dos usuários, contendo todas as suas informações com relação ao vestibular.
 

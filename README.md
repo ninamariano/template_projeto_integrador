@@ -120,6 +120,9 @@ https://drive.google.com/file/d/1JU2m_B8m2XXgTpften-UfvOqamXWbh_t/view?usp=shari
 <b>b) Protótipo vs Modelo conceitual</b><br>
     (não serão aceitos modelos que não estejam em conformidade)<br>
     
+    https://docs.google.com/spreadsheets/d/1_Zx2nl94NHied_T2HUfNCF-OnEjv34xg3-oalWz5TDw/edit?usp=sharing
+    
+    
 
 
 

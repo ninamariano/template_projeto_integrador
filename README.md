@@ -8,7 +8,7 @@ Gianluca Scalzin: gianlucascalzisampogna@gmail.com<br>
 <br>
 
 <b>2.MINIMUNDO<br></b>
-   O sistema a ser desenvolvido para o site "Stunizado" conterá as seguintes informações: dos usuários serão armazenados matrícula, nome, sexo e data de nascimento. Além disso, a respeito do curso de interesse do usuário será armazenado nome e código e a respeito da faculdade será nome, código e processo seletivo. Um usuário pode desejar mais de um curso e faculdade e faculdade e curso podem possuir mais de  um usuário. Com relação às disciplinas, armazenaremos nome e código, e com relação aos conteúdos será nome, importância, código e código da disciplina a qual pertence, sendo assim, uma disciplina pode conter mais de um conteúdo, mas um conteúdo só pode pertencer a uma disciplina. Outras importantes informações são as da disponibilidade, sendo elas id, início, fim e dia da semana, e também as da atividade agendada, sendo id, inicio, fim, dia da semana, pessoa e descrição. Um usuário pode ter diversos horários de disponibilidade e atividades agendadas e essas podem ser de vários usuários.
+   O sistema a ser desenvolvido para o site "Stunizado" conterá as seguintes informações: dos usuários serão armazenados matrícula, nome, sexo e data de nascimento. Além disso, a respeito do curso de interesse do usuário será armazenado nome e código e a respeito da faculdade será nome, código e processo seletivo. Um usuário pode desejar mais de um curso e faculdade e faculdade e curso podem possuir mais de  um usuário. Com relação às disciplinas, armazenaremos nome e código, e com relação aos conteúdos será nome, importância, código e código da disciplina a qual pertence, sendo assim, uma disciplina pode conter mais de um conteúdo, mas um conteúdo só pode pertencer a uma disciplina. Outras importantes informações são as da disponibilidade, sendo elas id, início, fim e dia da semana, e também as da atividade agendada, sendo id, inicio, fim, dia da semana, pessoa e descrição. Um usuário pode ter diversos horários de disponibilidade e atividades agendadas e essas podem ser de vários usuários.<br>
 <br>
 
 <b>3.PMC<br></b>
@@ -52,7 +52,7 @@ O sistema Stunizado precisa inicialmente dos seguintes relatórios:
 
 <b>6. TABELA DE DADOS DO SISTEMA:</b>/<br>
 
-https://docs.google.com/spreadsheets/d/12X_oOsdZy9QY46T7XTzUFpD0mLCGBbvlRioiAtC2MVo/edit?usp=sharing
+https://docs.google.com/spreadsheets/d/12X_oOsdZy9QY46T7XTzUFpD0mLCGBbvlRioiAtC2MVo/edit?usp=sharing<br>
 <br>
 
 
@@ -106,7 +106,7 @@ Código: campo que identifica cada disciplina.
 <b>Conteúdos:</b> tabela que armazena as informações dos conteúdos a serem estudados pelo usuário.
 Código: campo que identifica cada conteúdo.
 Nome: campo que armazena o nome dos conteúdos.
-Cod_disciplina: campo que identifica de qual disciplina o conteúdo faz parte.
+Cod_disciplina: campo que identifica de qual disciplina o conteúdo faz parte.<br>
 <br>	 
 	 
 <b> 8.RASTREABILIDADE DOS ARTEFATOS</b><br>
@@ -127,7 +127,7 @@ https://drive.google.com/file/d/1JU2m_B8m2XXgTpften-UfvOqamXWbh_t/view?usp=shari
 https://drive.google.com/file/d/1m-7-KtnK3w1CP7ij8jpF8LeZjrWwMMaS/view?usp=sharing<br>
 <br>
 
-10. MODELO FÍSICO
+<b>10. MODELO FÍSICO</b>
     	/* Lógico_1: */
 
 CREATE TABLE USUARIO (<br>

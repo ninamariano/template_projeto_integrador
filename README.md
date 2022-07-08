@@ -9,11 +9,11 @@ Gianluca Scalzin: gianlucascalzisampogna@gmail.com<br>
 
 <b>2.MINIMUNDO<br></b>
    O sistema a ser desenvolvido para o site "Stunizado" conterá as seguintes informações: dos usuários serão armazenados matrícula, nome, sexo e data de nascimento. Além disso, a respeito do curso de interesse do usuário será armazenado nome e código e a respeito da faculdade será nome, código e processo seletivo. Um usuário pode desejar mais de um curso e faculdade e faculdade e curso podem possuir mais de  um usuário. Com relação às disciplinas, armazenaremos nome e código, e com relação aos conteúdos será nome, importância, código e código da disciplina a qual pertence, sendo assim, uma disciplina pode conter mais de um conteúdo, mas um conteúdo só pode pertencer a uma disciplina. Outras importantes informações são as da disponibilidade, sendo elas id, início, fim e dia da semana, e também as da atividade agendada, sendo id, inicio, fim, dia da semana, pessoa e descrição. Um usuário pode ter diversos horários de disponibilidade e atividades agendadas e essas podem ser de vários usuários.
-
+<br>
 
 <b>3.PMC<br></b>
 https://drive.google.com/file/d/1JB77qcl5fPhs_R1OZTYgF7XAodsZBXsY/view?usp=sharing<br>
-
+<br>
 
 
 
@@ -25,7 +25,7 @@ https://drive.google.com/file/d/1R655DPkJy1uYbpS-EaEIskA1dPwTYgQw/view?usp=shari
 
 b) inclusão das Histórias de usuário desenvolvidas pelo grupo<br>
 https://drive.google.com/file/d/1fHd5QBwyl_h0W58VLSPoNU6zlC0MMFw0/view?usp=sharing<br>
-
+<br>
 
 <b>5. RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)</b><br>
 https://www.figma.com/file/LpGQFtAgEowuKSbgE1vVDz/Prot%C3%B3tipos?node-id=0%3A1
@@ -41,7 +41,7 @@ O sistema Stunizado precisa inicialmente dos seguintes relatórios:
 * Relatórios da agenda de cada usuário contendo nome do usuario, dia da semana e horários; 
 * Relatório que informe quais são os conteúdos de cada disciplina incluindo as seguintes informações: nome do conteúdo e nome da disciplina.
 * Relatório que informe quais cursos são ofertados em cada faculdade, contendo nome da faculdade, nome do curso e processo seletivo para ingresso.
-    
+ <br>   
 
  
 
@@ -53,13 +53,13 @@ O sistema Stunizado precisa inicialmente dos seguintes relatórios:
 <b>6. TABELA DE DADOS DO SISTEMA:</b>/<br>
 
 https://docs.google.com/spreadsheets/d/12X_oOsdZy9QY46T7XTzUFpD0mLCGBbvlRioiAtC2MVo/edit?usp=sharing
-
+<br>
 
 
 
 <b>7. MODELO CONCEITUAL</b><br>
 https://drive.google.com/file/d/1-HWbOHQTqD-K5Zepyn64uZKl_kgGFs-u/view?usp=sharing
-	
+<br>	
 
 
 
@@ -107,7 +107,7 @@ Código: campo que identifica cada disciplina.
 Código: campo que identifica cada conteúdo.
 Nome: campo que armazena o nome dos conteúdos.
 Cod_disciplina: campo que identifica de qual disciplina o conteúdo faz parte.
-	 
+<br>	 
 	 
 <b> 8.RASTREABILIDADE DOS ARTEFATOS</b><br>
 <b>a) Historia de usuários vs protótipo (mockup)</b><br>
@@ -120,11 +120,12 @@ https://drive.google.com/file/d/1JU2m_B8m2XXgTpften-UfvOqamXWbh_t/view?usp=shari
     (não serão aceitos modelos que não estejam em conformidade)<br>
     
     https://docs.google.com/spreadsheets/d/1_Zx2nl94NHied_T2HUfNCF-OnEjv34xg3-oalWz5TDw/edit?usp=sharing<br>
-    
+<br>    
     
 <b> 9. MODELO LÓGICO</b><br>
 
 https://drive.google.com/file/d/1m-7-KtnK3w1CP7ij8jpF8LeZjrWwMMaS/view?usp=sharing<br>
+<br>
 
 10. MODELO FÍSICO
     	/* Lógico_1: */
@@ -243,7 +244,7 @@ ALTER TABLE USUARIO_DISCIPLINA ADD CONSTRAINT FK_USUARIO_DISCIPLINA_2<br>
     FOREIGN KEY (FK_USUARIO_MATRICULA)<br>
     REFERENCES USUARIO (MATRICULA)<br>
     ON DELETE SET NULL;<br>
-
+<br>
   	 
 
 
@@ -256,7 +257,7 @@ ALTER TABLE USUARIO_DISCIPLINA ADD CONSTRAINT FK_USUARIO_DISCIPLINA_2<br>
     	b) Criar um novo banco de dados para testar a restauracao
     	(em caso de falha na restauração o grupo não pontuará neste quesito)
     	c) formato .SQL
-	
+<br>	
 	
 <b>12 TABELAS E PRINCIPAIS CONSULTAS</b><br>
 OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
@@ -264,7 +265,7 @@ OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mos
 <b>12.1 CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas)</b>
 
 <b>12.2 PRINCIPAIS CONSULTAS DO SISTEMA</b><br>
-
+<br>
 
 <b>12.3 ANTEPROJETO VERSÃO 1</b><br>
 https://docs.google.com/document/d/1N03VWSGvzWUp4_SWPR_GeCNuyEGG8_AAB9fOHay2AtI/edit?usp=sharing

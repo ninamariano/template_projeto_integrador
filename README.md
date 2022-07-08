@@ -70,12 +70,12 @@ B - Usuário, atividade agendada e faculdade.
 <b>7.1 Descrição dos dados</b>
 
 	Usuário: tabela que armazena as informações relativas ao usuário.
-           Nome: campo que armazena o nome do usuário.
-	Data_nascimento: campo que armazena a data de nascimento do usuário.
-           Sexo: campo que armazena o gênero do usuário.
-           Matrícula: campo que armazena o número de matrícula do usuário.
+           <b>Nome:</b> campo que armazena o nome do usuário.
+	   <b>Data_nascimento:</b> campo que armazena a data de nascimento do usuário.
+           <b>Sexo:</b> campo que armazena o gênero do usuário.
+           <b>Matrícula:</b> campo que armazena o número de matrícula do usuário.
 
-          Curso: tabela que armazena as informações do curso de escolha do usuário.
+          <b>Curso: tabela que armazena as informações do curso de escolha do usuário.
           Código: campo que armazena os códigos de identificação de cada curso.
           Nome: campo que armazena o nome do curso de escolha.
 
@@ -120,8 +120,145 @@ https://drive.google.com/file/d/1JU2m_B8m2XXgTpften-UfvOqamXWbh_t/view?usp=shari
 <b>b) Protótipo vs Modelo conceitual</b><br>
     (não serão aceitos modelos que não estejam em conformidade)<br>
     
-    https://docs.google.com/spreadsheets/d/1_Zx2nl94NHied_T2HUfNCF-OnEjv34xg3-oalWz5TDw/edit?usp=sharing
+    https://docs.google.com/spreadsheets/d/1_Zx2nl94NHied_T2HUfNCF-OnEjv34xg3-oalWz5TDw/edit?usp=sharing<br>
     
+    
+<b> 9. MODELO LÓGICO</b><br>
+
+https://drive.google.com/file/d/1m-7-KtnK3w1CP7ij8jpF8LeZjrWwMMaS/view?usp=sharing<br>
+
+10. MODELO FÍSICO
+    	/* Lógico_1: */
+
+CREATE TABLE USUARIO (
+    MATRICULA INTEGER PRIMARY KEY,
+    NOME VARCHAR(50),
+    SEXO VARCHAR(50),
+    DATA_NASCIMENTO DATE
+);
+
+CREATE TABLE FACULDADE (
+    NOME VARCHAR(100),
+    CODIGO INTEGER PRIMARY KEY,
+    PROCESSO_SELETIVO VARCHAR(50)
+);
+
+CREATE TABLE CURSO (
+    NOME VARCHAR(50),
+    CODIGO INTEGER PRIMARY KEY
+);
+
+CREATE TABLE DISPONIBILIDADE (
+    ID INTEGER PRIMARY KEY,
+    INICIO TIME,
+    FIM TIME,
+    DIA_SEMANA DATE,
+    FK_ATIVIDADE_AGENDADA_ID INTEGER
+);
+
+CREATE TABLE DISCIPLINAS (
+    NOME VARCHAR(50),
+    CODIGO INTEGER PRIMARY KEY
+);
+
+CREATE TABLE CONTEUDOS (
+    NOME VARCHAR(100),
+    IMPORTANCIA VARCHAR(50),
+    CODIGO INTEGER PRIMARY KEY,
+    COD_DISCIPLINA INTEGER,
+    FK_DISCIPLINAS_CODIGO INTEGER
+);
+
+CREATE TABLE ATIVIDADE_AGENDADA (
+    ID INTEGER PRIMARY KEY,
+    INICIO TIME,
+    FIM TIME,
+    DIA_SEMANA DATE,
+    ID_PESSOA INTEGER,
+    DESCRICAO VARCHAR(100),
+    FK_CONTEUDOS_CODIGO INTEGER
+);
+
+CREATE TABLE FACULDADE_CURSO_FACULDADE_CURSO_USUARIO (
+    FK_FACULDADE_CODIGO INTEGER,
+    FK_CURSO_CODIGO INTEGER,
+    FK_USUARIO_MATRICULA INTEGER
+);
+
+CREATE TABLE DISPONIBILIDADE_USUARIO (
+    FK_USUARIO_MATRICULA INTEGER,
+    FK_DISPONIBILIDADE_ID INTEGER
+);
+
+CREATE TABLE USUARIO_DISCIPLINA (
+    FK_DISCIPLINAS_CODIGO INTEGER,
+    FK_USUARIO_MATRICULA INTEGER
+);
+ 
+ALTER TABLE DISPONIBILIDADE ADD CONSTRAINT FK_DISPONIBILIDADE_2
+    FOREIGN KEY (FK_ATIVIDADE_AGENDADA_ID)
+    REFERENCES ATIVIDADE_AGENDADA (ID)
+    ON DELETE CASCADE;
+ 
+ALTER TABLE CONTEUDOS ADD CONSTRAINT FK_CONTEUDOS_2
+    FOREIGN KEY (FK_DISCIPLINAS_CODIGO)
+    REFERENCES DISCIPLINAS (CODIGO)
+    ON DELETE RESTRICT;
+ 
+ALTER TABLE ATIVIDADE_AGENDADA ADD CONSTRAINT FK_ATIVIDADE_AGENDADA_2
+    FOREIGN KEY (FK_CONTEUDOS_CODIGO)
+    REFERENCES CONTEUDOS (CODIGO)
+    ON DELETE CASCADE;
+ 
+ALTER TABLE FACULDADE_CURSO_FACULDADE_CURSO_USUARIO ADD CONSTRAINT FK_FACULDADE_CURSO_FACULDADE_CURSO_USUARIO_1
+    FOREIGN KEY (FK_FACULDADE_CODIGO)
+    REFERENCES FACULDADE (CODIGO)
+    ON DELETE NO ACTION;
+ 
+ALTER TABLE FACULDADE_CURSO_FACULDADE_CURSO_USUARIO ADD CONSTRAINT FK_FACULDADE_CURSO_FACULDADE_CURSO_USUARIO_2
+    FOREIGN KEY (FK_CURSO_CODIGO)
+    REFERENCES CURSO (CODIGO)
+    ON DELETE NO ACTION;
+ 
+ALTER TABLE FACULDADE_CURSO_FACULDADE_CURSO_USUARIO ADD CONSTRAINT FK_FACULDADE_CURSO_FACULDADE_CURSO_USUARIO_3
+    FOREIGN KEY (FK_USUARIO_MATRICULA)
+    REFERENCES USUARIO (MATRICULA)
+    ON DELETE NO ACTION;
+ 
+ALTER TABLE DISPONIBILIDADE_USUARIO ADD CONSTRAINT FK_DISPONIBILIDADE_USUARIO_1
+    FOREIGN KEY (FK_USUARIO_MATRICULA)
+    REFERENCES USUARIO (MATRICULA)
+    ON DELETE SET NULL;
+ 
+ALTER TABLE DISPONIBILIDADE_USUARIO ADD CONSTRAINT FK_DISPONIBILIDADE_USUARIO_2
+    FOREIGN KEY (FK_DISPONIBILIDADE_ID)
+    REFERENCES DISPONIBILIDADE (ID)
+    ON DELETE SET NULL;
+ 
+ALTER TABLE USUARIO_DISCIPLINA ADD CONSTRAINT FK_USUARIO_DISCIPLINA_1
+    FOREIGN KEY (FK_DISCIPLINAS_CODIGO)
+    REFERENCES DISCIPLINAS (CODIGO)
+    ON DELETE RESTRICT;
+ 
+ALTER TABLE USUARIO_DISCIPLINA ADD CONSTRAINT FK_USUARIO_DISCIPLINA_2
+    FOREIGN KEY (FK_USUARIO_MATRICULA)
+    REFERENCES USUARIO (MATRICULA)
+    ON DELETE SET NULL;
+
+  	 
+
+
+
+
+11. INSERT APLICADO NAS TABELAS DO BANCO DE DADOS
+    	a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico
+    	(Drop para exclusão de tabelas + create definição de para tabelas e estruturas de dados
+ <br> + insert para dados a serem inseridos)
+    	b) Criar um novo banco de dados para testar a restauracao
+    	(em caso de falha na restauração o grupo não pontuará neste quesito)
+    	c) formato .SQL
+
+
     
 
 

@@ -256,6 +256,22 @@ ALTER TABLE USUARIO_DISCIPLINA ADD CONSTRAINT FK_USUARIO_DISCIPLINA_2
     	b) Criar um novo banco de dados para testar a restauracao
     	(em caso de falha na restauração o grupo não pontuará neste quesito)
     	c) formato .SQL
+	
+	
+<b>12 TABELAS E PRINCIPAIS CONSULTAS</b>
+OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
+
+<b>12.1 CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas)</b>
+
+<b>12.2 PRINCIPAIS CONSULTAS DO SISTEMA</b>
+Inserir as principais consultas (relativas aos 5 principais relatórios) definidas previamente no iten 3.1 deste template.
+a) Você deve apresentar as consultas em formato SQL para cad um dos relatórios.
+b) Além da consulta deve ser apresentada uma imagem com o resultado obtido para cada consulta.
+
+<b>12.3 ANTEPROJETO VERSÃO 1</b>
+https://docs.google.com/document/d/1N03VWSGvzWUp4_SWPR_GeCNuyEGG8_AAB9fOHay2AtI/edit?usp=sharing
+
+
 
 
     

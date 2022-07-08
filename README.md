@@ -69,45 +69,44 @@ B - Usuário, atividade agendada e faculdade.
 	 
 <b>7.1 Descrição dos dados</b>
 
-	Usuário: tabela que armazena as informações relativas ao usuário.
-           <b>Nome:</b> campo que armazena o nome do usuário.
-	   <b>Data_nascimento:</b> campo que armazena a data de nascimento do usuário.
-           <b>Sexo:</b> campo que armazena o gênero do usuário.
-           <b>Matrícula:</b> campo que armazena o número de matrícula do usuário.
+<b>Usuário:</b> tabela que armazena as informações relativas ao usuário.
+Nome: campo que armazena o nome do usuário.
+Data_nascimento: campo que armazena a data de nascimento do usuário.
+Sexo: campo que armazena o gênero do usuário.
+Matrícula: campo que armazena o número de matrícula do usuário.
 
-          <b>Curso: tabela que armazena as informações do curso de escolha do usuário.
-          Código: campo que armazena os códigos de identificação de cada curso.
-          Nome: campo que armazena o nome do curso de escolha.
+<b>Curso:</b> tabela que armazena as informações do curso de escolha do usuário.
+Código: campo que armazena os códigos de identificação de cada curso.
+Nome: campo que armazena o nome do curso de escolha.
 
-          Faculdade: tabela que armazena as informações da faculdade escolhida pelo usuário.
-          Código: campo que armazena os códigos de identificação de cada faculdade.
-          Nome: campo que armazena o nome do curso de escolha.
-          Processo_seletivo: campo que armazena a prova a ser feita para a faculdade de escolha.
+<b>Faculdade:</b> tabela que armazena as informações da faculdade escolhida pelo usuário.
+Código: campo que armazena os códigos de identificação de cada faculdade.
+Nome: campo que armazena o nome do curso de escolha.
+ Processo_seletivo: campo que armazena a prova a ser feita para a faculdade de escolha.
  
-          Disponibilidade: tabela que armazena os horários de disponibilidade do usuário.
-          Dia_semana: campo que armazena os dias disponiveis.
-          Início: campo que armazena o início de cada horário.
-          Fim: campo que armazena o fim de cada horário.
-          ID: campo que identifica a disponibilidade de cada usuário.
+<b>Disponibilidade:</b> tabela que armazena os horários de disponibilidade do usuário.
+Dia_semana: campo que armazena os dias disponiveis.
+Início: campo que armazena o início de cada horário.
+Fim: campo que armazena o fim de cada horário.
+ID: campo que identifica a disponibilidade de cada usuário.
 
-          Atividade agendada: tabela que armazena as informações da 
-          Dia_semana:  campo que armazena os dias disponiveis.
-          Início: campo que armazena o início de cada horário.
-          Fim: campo que armazena o fim de cada horário.
-          ID: campo que identifica cada possível atividade.
-          Descrição: campo que descreve a atividade a ser realizada.
-          ID_pessoa: campo que armazena os ID’s dos usuários que realizam a atividade.
+<b>Atividade agendada:</b> tabela que armazena as informações da 
+Dia_semana:  campo que armazena os dias disponiveis.
+Início: campo que armazena o início de cada horário.
+Fim: campo que armazena o fim de cada horário.
+ID: campo que identifica cada possível atividade.
+Descrição: campo que descreve a atividade a ser realizada.
+ID_pessoa: campo que armazena os ID’s dos usuários que realizam a atividade.
 
-          Disciplinas: tabela que armazena as informações das matérias que o usuário estuda.
-          Nome: campo que armazena o nome das disciplinas.
-          Importância: campo que classifica as disciplinas por nível de importância.
-          Código: campo que identifica cada disciplina.
+<b>Disciplinas:</b> tabela que armazena as informações das matérias que o usuário estuda.
+Nome: campo que armazena o nome das disciplinas.
+Importância: campo que classifica as disciplinas por nível de importância.
+Código: campo que identifica cada disciplina.
  
-          Conteúdos: tabela que armazena as informações dos conteúdos a serem estudados pelo usuário.
-          Código: campo que identifica cada conteúdo.
-          Nome: campo que armazena o nome dos conteúdos.
-          Cod_disciplina: campo que identifica de qual disciplina o conteúdo faz parte.
-	  
+<b>Conteúdos:</b> tabela que armazena as informações dos conteúdos a serem estudados pelo usuário.
+Código: campo que identifica cada conteúdo.
+Nome: campo que armazena o nome dos conteúdos.
+Cod_disciplina: campo que identifica de qual disciplina o conteúdo faz parte.
 	 
 	 
 <b> 8.RASTREABILIDADE DOS ARTEFATOS</b><br>
@@ -127,7 +126,7 @@ https://drive.google.com/file/d/1JU2m_B8m2XXgTpften-UfvOqamXWbh_t/view?usp=shari
 
 https://drive.google.com/file/d/1m-7-KtnK3w1CP7ij8jpF8LeZjrWwMMaS/view?usp=sharing<br>
 
-<b> 10. MODELO FÍSICO</b>
+10. MODELO FÍSICO
     	/* Lógico_1: */
 
 CREATE TABLE USUARIO (
@@ -248,7 +247,9 @@ ALTER TABLE USUARIO_DISCIPLINA ADD CONSTRAINT FK_USUARIO_DISCIPLINA_2
   	 
 
 
-<b> 11. INSERT APLICADO NAS TABELAS DO BANCO DE DADOS</b>
+
+
+11. INSERT APLICADO NAS TABELAS DO BANCO DE DADOS
     	a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico
     	(Drop para exclusão de tabelas + create definição de para tabelas e estruturas de dados
  <br> + insert para dados a serem inseridos)

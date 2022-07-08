@@ -99,9 +99,9 @@ B - Usuário, atividade agendada e faculdade.
           ID_pessoa: campo que armazena os ID’s dos usuários que realizam a atividade.
 
           Disciplinas: tabela que armazena as informações das matérias que o usuário estuda.
-Nome: campo que armazena o nome das disciplinas.
-Importância: campo que classifica as disciplinas por nível de importância.
-Código: campo que identifica cada disciplina.
+          Nome: campo que armazena o nome das disciplinas.
+          Importância: campo que classifica as disciplinas por nível de importância.
+          Código: campo que identifica cada disciplina.
  
           Conteúdos: tabela que armazena as informações dos conteúdos a serem estudados pelo usuário.
           Código: campo que identifica cada conteúdo.

@@ -127,7 +127,7 @@ https://drive.google.com/file/d/1JU2m_B8m2XXgTpften-UfvOqamXWbh_t/view?usp=shari
 
 https://drive.google.com/file/d/1m-7-KtnK3w1CP7ij8jpF8LeZjrWwMMaS/view?usp=sharing<br>
 
-10. MODELO FÍSICO
+<b> 10. MODELO FÍSICO</b>
     	/* Lógico_1: */
 
 CREATE TABLE USUARIO (
@@ -248,9 +248,7 @@ ALTER TABLE USUARIO_DISCIPLINA ADD CONSTRAINT FK_USUARIO_DISCIPLINA_2
   	 
 
 
-
-
-11. INSERT APLICADO NAS TABELAS DO BANCO DE DADOS
+<b> 11. INSERT APLICADO NAS TABELAS DO BANCO DE DADOS</b>
     	a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico
     	(Drop para exclusão de tabelas + create definição de para tabelas e estruturas de dados
  <br> + insert para dados a serem inseridos)

@@ -12,7 +12,7 @@ Gianluca Scalzin: gianlucascalzisampogna@gmail.com<br>
 <br>
 
 <b>3.PMC<br></b>
-
+![Alt text](https://github.com/ninamariano/template_projeto_integrador/blob/main/arquivos/PMC.PNG)<br>
 https://drive.google.com/file/d/1JB77qcl5fPhs_R1OZTYgF7XAodsZBXsY/view?usp=sharing<br>
 <br>
 

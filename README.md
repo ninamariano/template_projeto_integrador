@@ -19,16 +19,18 @@ https://drive.google.com/file/d/1JB77qcl5fPhs_R1OZTYgF7XAodsZBXsY/view?usp=shari
 
 
 <b>4. PERSONAS E HISTÓRIAS DE USUÁRIO<br></b>
-
 a) inclusão dos Persons desenvolvidos pelo grupo<br>
+![Alt text](https://github.com/ninamariano/template_projeto_integrador/blob/main/arquivos/Personas.PNG)<br>
 https://drive.google.com/file/d/1R655DPkJy1uYbpS-EaEIskA1dPwTYgQw/view?usp=sharing
 
 
 b) inclusão das Histórias de usuário desenvolvidas pelo grupo<br>
+![Alt text](https://github.com/ninamariano/template_projeto_integrador/blob/main/arquivos/Historia%20de%20Usuario.PNG)<br>
 https://drive.google.com/file/d/1fHd5QBwyl_h0W58VLSPoNU6zlC0MMFw0/view?usp=sharing<br>
 <br>
 
 <b>5. RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)</b><br>
+![Alt text](https://github.com/ninamariano/template_projeto_integrador/blob/main/arquivos/Prototipo.PNG)<br>
 https://www.figma.com/file/LpGQFtAgEowuKSbgE1vVDz/Prot%C3%B3tipos?node-id=0%3A1
 
 
@@ -52,13 +54,13 @@ O sistema Stunizado precisa inicialmente dos seguintes relatórios:
 
 
 <b>6. TABELA DE DADOS DO SISTEMA:</b>/<br>
-
 https://docs.google.com/spreadsheets/d/12X_oOsdZy9QY46T7XTzUFpD0mLCGBbvlRioiAtC2MVo/edit?usp=sharing<br>
 <br>
 
 
 
 <b>7. MODELO CONCEITUAL</b><br>
+![Alt text](https://github.com/ninamariano/template_projeto_integrador/blob/main/arquivos/modelo%20Conceitual.PNG)<br>
 https://drive.google.com/file/d/1-HWbOHQTqD-K5Zepyn64uZKl_kgGFs-u/view?usp=sharing
 <br>	
 

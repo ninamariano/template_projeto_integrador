@@ -39,11 +39,11 @@ https://www.figma.com/file/LpGQFtAgEowuKSbgE1vVDz/Prot%C3%B3tipos?node-id=0%3A1
 Relatórios de objetivos e interesses dos usuários, contendo todas as suas informações com relação ao vestibular.
 
 O sistema Stunizado precisa inicialmente dos seguintes relatórios:
-* Relatório com a quantidade de usuários por cada curso de interesse incluindo as seguintes informações: curso, faculdade e nome do usuário. 
+* Relatório com a quantidade de usuários por cada curso de interesse incluindo as seguintes informações: curso, faculdade e nome do usuário.
+* Relatório que informe quantos conteúdos há em cada disciplina incluindo as seguintes informações: nome da disciplina e quantidade de conteúdos.
 * Relatório das atividades a serem realizadas pelo usuário em cada dia contendo hora, dia da semana e descrição da atividade;
-* Relatórios da agenda de cada usuário contendo nome do usuario, dia da semana e horários; 
-* Relatório que informe quais são os conteúdos de cada disciplina incluindo as seguintes informações: nome do conteúdo e nome da disciplina.
-* Relatório que informe quais cursos são ofertados em cada faculdade, contendo nome da faculdade, nome do curso e processo seletivo para ingresso.
+* Relatório que apresente quantos horários cada usuário tem disponível.
+* Relatório que relacione cada usuário ao curso e a faculdade desejada, incluindo: nome do usuário, nome da faculdade, nome do curso.
  <br>   
 
  

@@ -18,13 +18,13 @@ https://drive.google.com/file/d/1JB77qcl5fPhs_R1OZTYgF7XAodsZBXsY/view?usp=shari
 
 
 
-<b>4. PERSONAS E HISTÓRIAS DE USUÁRIO<br></b>
-a) Personas
+<b>4. PERSONAS E HISTÓRIAS DE USUÁRIO</b><br>
+<b>a) Personas</b><br>
 ![Alt text](https://github.com/ninamariano/template_projeto_integrador/blob/main/arquivos/Personas.PNG)<br>
 https://drive.google.com/file/d/1R655DPkJy1uYbpS-EaEIskA1dPwTYgQw/view?usp=sharing
 
 
-<b>b) Histórias de usuário <br></b>
+<b>b) Histórias de usuário</b><br>
 ![Alt text](https://github.com/ninamariano/template_projeto_integrador/blob/main/arquivos/Historia%20de%20Usuario.PNG)<br>
 https://drive.google.com/file/d/1fHd5QBwyl_h0W58VLSPoNU6zlC0MMFw0/view?usp=sharing<br>
 <br>

@@ -60,7 +60,7 @@ https://docs.google.com/spreadsheets/d/12X_oOsdZy9QY46T7XTzUFpD0mLCGBbvlRioiAtC2
 
 
 <b>7. MODELO CONCEITUAL</b><br>
-![Alt text](https://github.com/ninamariano/template_projeto_integrador/blob/main/arquivos/Modelo%20Conceitual.png)<br>
+![Alt text](https://github.com/ninamariano/template_projeto_integrador/blob/main/arquivos/Conceitual.png)<br>
 https://drive.google.com/file/d/1-HWbOHQTqD-K5Zepyn64uZKl_kgGFs-u/view?usp=sharing
 <br>	
 

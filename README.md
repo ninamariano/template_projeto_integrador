@@ -130,7 +130,7 @@ https://drive.google.com/file/d/1JU2m_B8m2XXgTpften-UfvOqamXWbh_t/view?usp=shari
 <br>
 
 <b>10. MODELO FÍSICO</b>
-    	/* Lógico_1: */
+    	[/* Lógico_1: */
 
 CREATE TABLE USUARIO (<br>
     MATRICULA INTEGER PRIMARY KEY,<br>
@@ -245,7 +245,7 @@ ALTER TABLE USUARIO_DISCIPLINA ADD CONSTRAINT FK_USUARIO_DISCIPLINA_1<br>
 ALTER TABLE USUARIO_DISCIPLINA ADD CONSTRAINT FK_USUARIO_DISCIPLINA_2<br>
     FOREIGN KEY (FK_USUARIO_MATRICULA)<br>
     REFERENCES USUARIO (MATRICULA)<br>
-    ON DELETE SET NULL;<br>
+    ON DELETE SET NULL;<br>](https://github.com/ninamariano/template_projeto_integrador/blob/main/arquivos/Modelo%20F%C3%ADsico)
 <br>
   	 
 

@@ -73,34 +73,39 @@ B - Usuário, atividade agendada e faculdade. Um dos principais fluxos é o flux
 <b>7.1 Descrição dos dados</b>
 
 <b>Usuário:</b> tabela que armazena as informações relativas ao usuário.
+Id:campo que armazena o número de matrícula do usuário.
 Nome: campo que armazena o nome do usuário.
-Data_nascimento: campo que armazena a data de nascimento do usuário.
-Sexo: campo que armazena o gênero do usuário.
-Matrícula: campo que armazena o número de matrícula do usuário.
+Sobrenome: campo que armazena o sobrenome do usuário.
+Email: campo que armazena o email do usuário.
+Celular: campo que armazena o número de celular do usuário.
+Genero: campo que armazena o gênero do usuário.
+Senha: campo que armazena a senha do usuário.
  
-<b>Disponibilidade:</b> tabela que armazena os horários de disponibilidade do usuário.
-Dia_semana: campo que armazena os dias disponiveis.
-Início: campo que armazena o início de cada horário.
-Fim: campo que armazena o fim de cada horário.
-ID: campo que identifica a disponibilidade de cada usuário.
+<b>Dia_semana:</b> tabela que armazena as informações dos dias da semana.
+Id: campo que armazena o código do dia da semana.
+Nome: campo que armazena o nome do dia da semana.
 
-<b>Atividade agendada:</b> tabela que armazena as informações da 
-Dia_semana:  campo que armazena os dias disponiveis.
-Início: campo que armazena o início de cada horário.
-Fim: campo que armazena o fim de cada horário.
-ID: campo que identifica cada possível atividade.
-Descrição: campo que descreve a atividade a ser realizada.
-ID_pessoa: campo que armazena os ID’s dos usuários que realizam a atividade.
+<b>Planejamento:</b> tabela que armazena as informações da 
+Nome:  campo que armazena o nome do planejamento.
+Dt_inicio: campo que armazena a data de início do planejamento.
+Dt_fim: campo que armazena a data de fim do planejamento.
+
+<b>Plan_dia:</b> tabela de relação que armazena a quatidade de horas disponíveis em cada dia da semana de um planejamento.
+Id: campo que armazena o código do dia/plano.
+Qtd_horas: campo que armazena a quantidade de horas disponíveis no dia do planejamento.
+
+<b>Plan_disc:</b> tabela de relação que armazena as disciplinas que serão feitas pelo usuário.
+Fazer: armazena quais disciplinas serão e não serão feitas.
+Id: campo que armazena o código do plano/disc.
 
 <b>Disciplinas:</b> tabela que armazena as informações das matérias que o usuário estuda.
 Nome: campo que armazena o nome das disciplinas.
-Importância: campo que classifica as disciplinas por nível de importância.
-Código: campo que identifica cada disciplina.
+Id: campo que identifica cada disciplina.
  
 <b>Conteúdos:</b> tabela que armazena as informações dos conteúdos a serem estudados pelo usuário.
-Código: campo que identifica cada conteúdo.
+Id: campo que identifica cada conteúdo.
 Nome: campo que armazena o nome dos conteúdos.
-Cod_disciplina: campo que identifica de qual disciplina o conteúdo faz parte.<br>
+Cod_disciplina: campo que identifica a qual disciplina o conteúdo pertence.<br>
 <br>	 
 	 
 <b> 8.RASTREABILIDADE DOS ARTEFATOS</b><br>

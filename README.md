@@ -77,15 +77,6 @@ Nome: campo que armazena o nome do usuário.
 Data_nascimento: campo que armazena a data de nascimento do usuário.
 Sexo: campo que armazena o gênero do usuário.
 Matrícula: campo que armazena o número de matrícula do usuário.
-
-<b>Curso:</b> tabela que armazena as informações do curso de escolha do usuário.
-Código: campo que armazena os códigos de identificação de cada curso.
-Nome: campo que armazena o nome do curso de escolha.
-
-<b>Faculdade:</b> tabela que armazena as informações da faculdade escolhida pelo usuário.
-Código: campo que armazena os códigos de identificação de cada faculdade.
-Nome: campo que armazena o nome do curso de escolha.
- Processo_seletivo: campo que armazena a prova a ser feita para a faculdade de escolha.
  
 <b>Disponibilidade:</b> tabela que armazena os horários de disponibilidade do usuário.
 Dia_semana: campo que armazena os dias disponiveis.

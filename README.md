@@ -122,7 +122,7 @@ https://drive.google.com/file/d/1JU2m_B8m2XXgTpften-UfvOqamXWbh_t/view?usp=shari
 <br>    
     
 <b> 9. MODELO LÓGICO</b><br>
-![Alt text](https://github.com/ninamariano/template_projeto_integrador/blob/main/arquivos/Modelo%20L%C3%B3gico.png)<br>
+![Alt text](https://github.com/ninamariano/template_projeto_integrador/blob/main/arquivos/Logico.png)<br>
 <br>
 
 <b>10. MODELO FÍSICO</b>

@@ -39,12 +39,11 @@ https://www.figma.com/file/LpGQFtAgEowuKSbgE1vVDz/Prot%C3%B3tipos?node-id=0%3A1
 Relatórios de objetivos e interesses dos usuários, contendo todas as suas informações com relação ao vestibular.
 
 O sistema Stunizado precisa inicialmente dos seguintes relatórios:
-* Relatório com a quantidade de usuários por cada curso de interesse incluindo as seguintes informações: curso, faculdade e nome do usuário.
-* Relatório que informe quantos conteúdos há em cada disciplina incluindo as seguintes informações: nome da disciplina e quantidade de conteúdos.
-* Relatório das atividades a serem realizadas pelo usuário em cada dia contendo hora, dia da semana e descrição da atividade;
-* Relatório que apresente quantos horários cada usuário tem disponível.
-* Relatório que relacione cada usuário ao curso e a faculdade desejada, incluindo: nome do usuário, nome da faculdade, nome do curso.
- <br>   
+* Relatório que informa a quantidade de planejamentos que realizarão cada disciplina.
+* Relatório que informa quantos conteúdos há em cada disciplina.
+* Relatório que informa a quantidade de horas disponíveis por dia da semana de um planejamento.
+* Relatório que informa a quantidade de disciplinas que cada planejamento está cadastrado para estudar.
+* Relatório que informa a quantidade total de horas disponíveis por semana de um planejamento.
 
  
 
@@ -73,7 +72,7 @@ B - Usuário, atividade agendada e faculdade. Um dos principais fluxos é o flux
 <b>7.1 Descrição dos dados</b>
 
 <b>Usuário:</b> tabela que armazena as informações relativas ao usuário. <br>
-Id:campo que armazena o número de matrícula do usuário. <br>
+Id: campo que armazena o número de matrícula do usuário. <br>
 Nome: campo que armazena o nome do usuário. <br>
 Sobrenome: campo que armazena o sobrenome do usuário. <br>
 Email: campo que armazena o email do usuário. <br>
@@ -85,20 +84,20 @@ Senha: campo que armazena a senha do usuário. <br>
 Id: campo que armazena o código do dia da semana. <br>
 Nome: campo que armazena o nome do dia da semana. <br>
 
-<b>Planejamento:</b> tabela que armazena as informações da 
+<b>Planejamento:</b> tabela que armazena as informações de cada planejamento. <br>
 Nome:  campo que armazena o nome do planejamento. <br>
 Dt_inicio: campo que armazena a data de início do planejamento. <br>
 Dt_fim: campo que armazena a data de fim do planejamento. <br>
 
-<b>Plan_dia:</b> tabela de relação que armazena a quatidade de horas disponíveis em cada dia da semana de um planejamento.
+<b>Plan_dia:</b> tabela de relação que armazena a quatidade de horas disponíveis em cada dia da semana de um planejamento. <br>
 Id: campo que armazena o código do dia/plano. <br>
 Qtd_horas: campo que armazena a quantidade de horas disponíveis no dia do planejamento. <br>
 
-<b>Plan_disc:</b> tabela de relação que armazena as disciplinas que serão feitas pelo usuário.
+<b>Plan_disc:</b> tabela de relação que armazena as disciplinas que serão feitas pelo usuário. <br>
 Fazer: armazena quais disciplinas serão e não serão feitas. <br>
 Id: campo que armazena o código do plano/disc. <br>
 
-<b>Disciplinas:</b> tabela que armazena as informações das matérias que o usuário estuda.
+<b>Disciplinas:</b> tabela que armazena as informações das matérias que o usuário estuda. <br>
 Nome: campo que armazena o nome das disciplinas. <br>
 Id: campo que identifica cada disciplina. <br>
  

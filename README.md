@@ -53,7 +53,7 @@ O sistema Stunizado precisa inicialmente dos seguintes relatórios:
 
 
 <b>6. TABELA DE DADOS DO SISTEMA:</b>/<br>
-https://docs.google.com/spreadsheets/d/12X_oOsdZy9QY46T7XTzUFpD0mLCGBbvlRioiAtC2MVo/edit?usp=sharing<br>
+https://docs.google.com/spreadsheets/d/1Ot_mDXuw85-kzCVTcoxdcMph8FFAR2LkpkrWs1eN5R0/edit?usp=sharing<br>
 <br>
 
 

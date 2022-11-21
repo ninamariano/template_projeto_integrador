@@ -66,7 +66,7 @@ https://drive.google.com/file/d/1-HWbOHQTqD-K5Zepyn64uZKl_kgGFs-u/view?usp=shari
 
 
 
-B - Usuário, atividade agendada e faculdade. Um dos principais fluxos é o fluxo usuário_disponibilidade_atividadeagendada, que é o que de fato cumpre o principal papel da aplicação que é o cronograma.
+B - Usuário, Planejamento, Plan_dia, Plan_disc. Um dos principais fluxos é o fluxo Usuário_Planejamento, que é o que de fato cumpre o principal papel da aplicação que é o cronograma.
 
 	 
 <b>7.1 Descrição dos dados</b>

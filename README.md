@@ -188,18 +188,13 @@ ALTER TABLE PLAN_DIA ADD CONSTRAINT FK_PLAN_DIA_2
 
 
 <b>11. INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br><b>
-    	a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico
-    	(Drop para exclusão de tabelas + create definição de para tabelas e estruturas de dados
- <br> + insert para dados a serem inseridos)
-    	b) Criar um novo banco de dados para testar a restauracao
-    	(em caso de falha na restauração o grupo não pontuará neste quesito)
-    	c) formato .SQL
+    
 <br>	
 	
 <b>12 TABELAS E PRINCIPAIS CONSULTAS</b><br>
-OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 
 <b>12.1 CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas)</b>
+https://drive.google.com/file/d/17W5BFJCm7hwwIqx9rbyNW7XqMNxqOAqs/view?usp=sharing
 
 <b>12.2 PRINCIPAIS CONSULTAS DO SISTEMA</b><br>
 <br>

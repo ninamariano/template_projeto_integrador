@@ -200,10 +200,18 @@ https://drive.google.com/file/d/17W5BFJCm7hwwIqx9rbyNW7XqMNxqOAqs/view?usp=shari
 
 <b>12.3 ANTEPROJETO VERSÃO 1</b><br>
 https://docs.google.com/document/d/1N03VWSGvzWUp4_SWPR_GeCNuyEGG8_AAB9fOHay2AtI/edit?usp=sharing
+<br>
 
 
+	
+14 Slides e Apresentação em vídeo.<br>
 
-
+14.1 Slides;<br>
+	
+14.2 Apresentação em vídeo<br>
+https://youtu.be/xM3BwE151MM
+	
+14.3 ANTEPROJETO VERSÃO FINAL<br>
     
 
 

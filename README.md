@@ -187,13 +187,13 @@ ALTER TABLE PLAN_DIA ADD CONSTRAINT FK_PLAN_DIA_2
 
 
 
-<b>11. INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br><b>
+<b>11. INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br><b><br>	
 https://drive.google.com/file/d/10hQCMYtjn9bouKQjCITbFcnBPOK0N1oD/view?usp=sharing <br>	
 	
 <b>12 TABELAS E PRINCIPAIS CONSULTAS</b><br>
 
-<b>12.1 CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas)</b>
-https://drive.google.com/file/d/17W5BFJCm7hwwIqx9rbyNW7XqMNxqOAqs/view?usp=sharing
+<b>12.1 CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas)</b><br>	
+https://drive.google.com/file/d/17W5BFJCm7hwwIqx9rbyNW7XqMNxqOAqs/view?usp=sharing<br>	
 
 <b>12.2 PRINCIPAIS CONSULTAS DO SISTEMA</b><br>
 <br>

@@ -207,9 +207,10 @@ https://docs.google.com/document/d/1N03VWSGvzWUp4_SWPR_GeCNuyEGG8_AAB9fOHay2AtI/
 <br>
 
 <b>15. Diagrama de classes</b><br>
+https://github.com/ninamariano/template_projeto_integrador/blob/main/arquivos/Untitled%20(1).pdf
 
 <b>16. Calendário reverso</b><br>
-
+https://github.com/ninamariano/template_projeto_integrador/blob/main/arquivos/CALEND%C3%81RIO%20REVERSO.pdf
 
 
 
